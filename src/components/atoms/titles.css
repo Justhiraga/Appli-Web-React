@@ -1,0 +1,19 @@
+.titles{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    color: black;
+}
+
+.titles_selected{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: right;
+    color: black;
+    text-decoration: underline;
+    
+}

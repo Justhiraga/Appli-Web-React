@@ -1,10 +1,31 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import ReactDOM from 'react-dom/client'
+import './styles.css'
+import { createBrowserRouter, RouterProvider } from "react-router";
+import Home from './pages/home.jsx'
+import About from './pages/about.jsx'
+import Housing from './pages/housing.jsx'
+import Error404 from './pages/error_404.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/housing",
+    element: <Housing />,
+  },
+  {
+    path: "*",
+    element: <Error404 />,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+   <RouterProvider router={router}/>,
 )
+
