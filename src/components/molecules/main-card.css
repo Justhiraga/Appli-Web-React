@@ -1,0 +1,27 @@
+.main-card {
+    position: relative;
+    overflow: hidden;
+    margin: 0px 20px;
+    height: 111px;
+    border-radius: 10px;
+}
+
+.main-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.main-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform: scale(2.1);
+}
