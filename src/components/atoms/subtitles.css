@@ -1,0 +1,11 @@
+.subtitles{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    left : 20px;
+    bottom: 20px;
+    margin: 0px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
