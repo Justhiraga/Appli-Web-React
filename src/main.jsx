@@ -3,7 +3,6 @@ import './styles.css'
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Home from './pages/home.jsx'
 import About from './pages/about.jsx'
-import Housing from './pages/housing.jsx'
 import Error404 from './pages/error_404.jsx'
 
 const router = createBrowserRouter([
@@ -14,10 +13,6 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
-  },
-  {
-    path: "/housing",
-    element: <Housing />,
   },
   {
     path: "*",
