@@ -1,0 +1,16 @@
+.text-footer{
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+.text-footer p{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+p{
+    margin: 0px;
+}
