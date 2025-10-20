@@ -1,0 +1,22 @@
+.error h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FF6060;
+    margin: 113px 88px
+}
+
+.error p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    margin: 0px 57px;
+    text-align: center
+}

@@ -1,0 +1,13 @@
+.errorlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    margin: 113px 77px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}

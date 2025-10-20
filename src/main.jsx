@@ -1,26 +1,21 @@
 import ReactDOM from 'react-dom/client'
 import './styles.css'
-import { createBrowserRouter, RouterProvider } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 import Home from './pages/home.jsx'
 import About from './pages/about.jsx'
 import Error404 from './pages/error_404.jsx'
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "*",
-    element: <Error404 />,
-  },
-]);
+const root = document.getElementById("root");
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-   <RouterProvider router={router}/>,
-)
+ReactDOM.createRoot(root).render(
+  <BrowserRouter>
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+
+      <Route path="*" element={<Error404 />} />
+    </Routes>
+  </BrowserRouter>,
+);
+
 
