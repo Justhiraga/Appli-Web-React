@@ -1,10 +1,14 @@
+import { useLocation } from 'react-router';
 import './titles.css';
+import { use } from 'react';
 
 export default function Titles() {
+    let location = useLocation();
+    location = location.pathname;
     return (
         <>
-            <span className="titles, titles_selected">ACCUEIL</span>
-            <span className="titles">A PROPOS</span>
+            <span className={location === '/' ? 'titles_selected' : 'titles'}>ACCUEIL</span>
+            <span className={location === '/about' ? 'titles_selected' : 'titles'}>A PROPOS</span>
         </>
     );
     

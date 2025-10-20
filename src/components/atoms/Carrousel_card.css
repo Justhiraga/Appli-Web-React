@@ -1,5 +1,5 @@
 .carrousel_card {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     margin: 0px;
     width: 335px;
