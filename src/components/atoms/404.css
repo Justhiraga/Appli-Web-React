@@ -20,3 +20,13 @@
     margin: 0px 57px;
     text-align: center
 }
+
+@media (min-width: 1440px) {
+    .error h1{
+        font-size: 288px;
+    }
+
+    .error p{
+        font-size: 36px;
+    }
+}

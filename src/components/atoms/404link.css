@@ -11,3 +11,10 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+    .errorlink{
+        font-size: 18px;
+        margin-bottom: 139px;
+    }
+}

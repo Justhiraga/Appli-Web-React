@@ -5,3 +5,9 @@
     width: 100%;
     position: relative;
 }
+
+@media (min-width: 1440px) {
+    .card{
+        width: 340px;
+    }
+}

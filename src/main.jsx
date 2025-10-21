@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Home from './pages/home.jsx'
 import Logement from './pages/Logement.jsx'
 import Error404 from './pages/error_404.jsx'
+import About from './pages/About.jsx'
 
 const root = document.getElementById("root");
 
@@ -12,8 +13,9 @@ ReactDOM.createRoot(root).render(
     <Routes>
       <Route index element={<Home />} />
       <Route path=":logement" element={<Logement />} />
+      <Route path="about" element={<About />} />
 
-      <Route path="*" element={<Error404 />} />
+      <Route path="er" element={<Error404 />} />
     </Routes>
   </BrowserRouter>,
 );

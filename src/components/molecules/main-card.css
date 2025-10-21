@@ -25,3 +25,14 @@
     border-radius: 10px;
     transform: scale(2.1);
 }
+
+@media (min-width: 1440px) {
+    .main-card {
+        height: 223px;
+        margin: 0px 100px 43px;
+    }
+
+    .main-card img {
+        transform: scale(1);
+    }
+}
