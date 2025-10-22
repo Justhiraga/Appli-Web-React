@@ -5,9 +5,7 @@ import { NavLink } from 'react-router';
 
 
 export default function Cards() {
-
     const cards = mydata.map((product) => {
-    
         return (
             <NavLink to={`/logement/${product.id}`} key={product.id}>
                 <Card img={product.cover} title={product.title}/>

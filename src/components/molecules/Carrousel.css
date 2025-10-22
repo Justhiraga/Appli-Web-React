@@ -14,7 +14,7 @@
 .arrow-left{
     position: absolute;
     cursor: pointer;
-    fill: rgb(253, 42, 42);
+    fill: rgb(255, 255, 255);
 }
 
 .arrow-left svg{
@@ -25,7 +25,7 @@
 .arrow-right{
     position: absolute;
     cursor: pointer;
-    fill: rgb(0, 0, 0);
+    fill: rgb(255, 255, 255);
     left: 307px;
 }
 
