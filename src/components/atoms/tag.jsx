@@ -1,6 +1,6 @@
 import './tag.css'
-export default function Tag({tags}) {
+export default function Tag({tag}) {
     return (
-        <li>{tags}</li>
+        <li>{tag}</li>
     );
 }
