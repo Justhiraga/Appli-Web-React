@@ -3,11 +3,10 @@ import Carrousel_card from '../atoms/Carrousel_card.jsx';
 import Arrow from '../atoms/arrow.jsx';
 
 
-export default function Carrousel() {
-    
+export default function Carrousel({pictures}) {
     return (
         <div className="carrousel">
-            <Carrousel_card />
+            <Carrousel_card  img={pictures[0]}/>
            <div className="arrow-left"> 
                 <Arrow direction={{rotate: 180 + 'deg'}} />
            </div>
@@ -16,6 +15,7 @@ export default function Carrousel() {
            </div>
         </div>          
     );
+    
 }
 
 

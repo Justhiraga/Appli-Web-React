@@ -9,7 +9,7 @@ export default function Cards() {
     const cards = mydata.map((product) => {
     
         return (
-            <NavLink to={`/${product.id}`} key={product.id}>
+            <NavLink to={`/logement/${product.id}`} key={product.id}>
                 <Card img={product.cover} title={product.title}/>
             </NavLink>
         );

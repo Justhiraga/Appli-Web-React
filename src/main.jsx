@@ -12,10 +12,10 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route index element={<Home />} />
-      <Route path=":logement" element={<Logement />} />
-      <Route path="about" element={<About />} />
+      <Route path="/logement/:ID" element={<Logement />} />
+      <Route path="/about" element={<About />} />
 
-      <Route path="er" element={<Error404 />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   </BrowserRouter>,
 );

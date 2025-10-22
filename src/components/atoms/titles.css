@@ -23,9 +23,6 @@ nav{
     gap : 20px;
 }
 
-a{
-    text-decoration-color: black;
-}
 
 @media (min-width: 1440px) {
     .titles{
