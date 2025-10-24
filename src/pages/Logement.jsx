@@ -22,13 +22,10 @@ export default function Logement() {
     <>
       <Header />
       <Carrousel pictures={logement.pictures} />
-      <div className="subtitle">
-        <Subtitles title={logement.title}/>
-      </div>
-      <div className="location">
-        <Location location={logement.location} />
-      </div>
-        <Tags tags={logement.tags} />
+      <Subtitles title={logement.title}/>
+      <Location location={logement.location} />
+      <Tags tags={logement.tags} /> 
+
       <Footer />
     </>
   );
