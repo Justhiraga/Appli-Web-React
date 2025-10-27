@@ -8,6 +8,7 @@ import Tags from "../components/molecules/tags.jsx";
 import './logement.css'
 import { useParams } from 'react-router';
 import Error404 from "./error_404.jsx";
+import Rating from "../components/molecules/rating.jsx";
 
 export default function Logement() {
     let { ID } = useParams();
@@ -22,10 +23,12 @@ export default function Logement() {
     <>
       <Header />
       <Carrousel pictures={logement.pictures} />
-      <Subtitles title={logement.title}/>
+      <div className="sub-t">
+        <Subtitles title={logement.title}/>
+      </div>
       <Location location={logement.location} />
-      <Tags tags={logement.tags} /> 
-
+      <Tags tags={logement.tags} />
+      <Rating rating={logement.rating} />
       <Footer />
     </>
   );

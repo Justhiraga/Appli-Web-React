@@ -1,0 +1,13 @@
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 24px 20px 0px 20px;
+    width: 98px;
+}
+
+.rating svg{
+    width: 18px;
+    height: 18px;
+    fill: #FF6060;
+}
