@@ -1,0 +1,11 @@
+.star{
+    width: 18px;
+    height: 18px;
+    fill: #FF6060;
+}
+
+.star_empty {
+    fill: #E3E3E3;
+    width: 18px;
+    height: 18px;
+}

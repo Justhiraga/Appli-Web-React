@@ -1,4 +1,3 @@
-import './arrow.css'
 
 export default function Arrow({direction}) {
     return (
