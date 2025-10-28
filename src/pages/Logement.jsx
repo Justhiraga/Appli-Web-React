@@ -9,10 +9,12 @@ import './logement.css'
 import { useParams } from 'react-router';
 import Error404 from "./error_404.jsx";
 import Rating from "../components/molecules/rating.jsx";
+import Circle from "../components/atoms/circle.jsx";
 
 export default function Logement() {
     let { ID } = useParams();
     const logement = mydata.find((product) => product.id === ID);
+    console.log(logement);
     if (!logement){
     return (
       <Error404  />
@@ -29,6 +31,10 @@ export default function Logement() {
       <Location location={logement.location} />
       <Tags tags={logement.tags} />
       <Rating rating={logement.rating} />
+      <div className="Host">
+        <p className="Host-name">{logement.host.name}</p>
+        <Circle img={logement.host.picture} />
+      </div>
       <Footer />
     </>
   );
