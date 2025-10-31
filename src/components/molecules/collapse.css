@@ -1,0 +1,98 @@
+.collapsible {
+  background-color: #FF6060;
+  color: white;
+  cursor: pointer;
+  width: 335px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0px 20px 20px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+button svg{
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+.content {
+  padding: 20px;
+  margin: -20px 20px 20px;
+  overflow: hidden;
+  background-color: #F6F6F673;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content-hidden{
+  max-height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.content-hidden p{
+  margin: 0px;
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.content-hidden ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.content-hidden li{
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  overflow: hidden;
+  background-color: #F6F6F673;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.content p{
+  margin: 0px;
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.content ul{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.content li{
+  font-family: montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  overflow: hidden;
+  background-color: #F6F6F673;
+  border: none;
+  text-align: left;
+  outline: none;
+}
