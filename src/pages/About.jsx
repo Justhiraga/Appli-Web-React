@@ -2,11 +2,10 @@ import Header from "../components/molecules/header.jsx";
 import MainCard2 from "../components/molecules/main-card2.jsx";
 import Footer from "../components/molecules/footer.jsx";
 import Collapse from "../components/molecules/collapse.jsx";
-import mydata2 from '../../about.json'
+import about from '../../about.json'
 
 
 export default function About() {
-    const about = mydata2.map((product) => product);
     return (
         <>
             <Header />

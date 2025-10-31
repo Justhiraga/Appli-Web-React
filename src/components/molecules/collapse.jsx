@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export default function Collapse( {texte, collapsetitle, equipments }) {
     const [show, setshow,] = useState(false);
-    const [rotate, setrotate,] = useState(false);
+    const [rotate, setrotate,] = useState(270);
     const changeclass = () => {
         setshow(!show);
         setrotate(show ? 270 : 90);
