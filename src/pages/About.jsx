@@ -3,6 +3,7 @@ import MainCard2 from "../components/molecules/main-card2.jsx";
 import Footer from "../components/molecules/footer.jsx";
 import Collapse from "../components/molecules/collapse.jsx";
 import about from '../../about.json'
+import '../pages/about.css'
 
 
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
         <>
             <Header />
             <MainCard2 />
-            <div className="collapse">
+            <div className="collapse-about">
                 <Collapse collapsetitle="Fiabilité" texte={about.fiabilite} />
                 <Collapse collapsetitle="Respect" texte={about.respect} />
                 <Collapse collapsetitle="Service" texte={about.service} />
