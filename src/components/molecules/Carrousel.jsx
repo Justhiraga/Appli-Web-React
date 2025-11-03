@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './carrousel.css';
-import Carrousel_card from '../atoms/Carrousel_card.jsx';
+import Carrousel_card from '../atoms/carrousel_card.jsx';
 import Arrow from '../atoms/arrow.jsx';
 
 export default function Carrousel({ pictures }) {
@@ -19,8 +19,10 @@ export default function Carrousel({ pictures }) {
     return (
         <div className="carrousel">
             <Carrousel_card img={pictures[currentpic]} />
+            
             {hasMultipleImages && (
                 <>
+                    <div className="number">{currentpic + 1}/{pictures.length}</div>
                     <div className="arrow-left" onClick={prevtpic}>
                         <Arrow direction={{ rotate: 180 + 'deg' }} />
                     </div>

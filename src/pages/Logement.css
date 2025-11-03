@@ -71,6 +71,16 @@ ul{
         justify-content: space-between;
     }
 
+    .Host-name{
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FF6060;
+        width: 6rem;
+        text-align: end;
+    }
+
     .ratehost{
         flex-direction: column-reverse;
         align-items: flex-end;
