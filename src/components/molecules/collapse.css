@@ -18,6 +18,7 @@ button svg{
   width: 32px;
   height: 32px;
   fill: white;
+  transition: ease 0.7s;
 }
 
 .content {
@@ -28,11 +29,13 @@ button svg{
   text-align: left;
   outline: none;
   font-size: 15px;
+  transition: ease 0.7s;
 }
 
 .content-hidden{
   max-height: 0;
-  display: none;
+  overflow: hidden;
+  transition: ease 0.7s;
 }
 
 .content-hidden p{
