@@ -1,16 +1,16 @@
-import Header from "../components/molecules/Header.jsx";
-import Footer from "../components/molecules/Footer.jsx";
-import Carrousel from "../components/molecules/Carrousel.jsx";
+import Header from "../components/molecules/Header";
+import Footer from "../components/molecules/Footer";
+import Carrousel from "../components/molecules/Carrousel";
 import mydata from '../../logements.json';
-import Subtitles from "../components/atoms/Subtitles.jsx";
-import Location from "../components/atoms/Location.jsx";
-import Tags from "../components/molecules/Tags.jsx";
+import Subtitles from "../components/atoms/Subtitles";
+import Location from "../components/atoms/Location";
+import Tags from "../components/molecules/Tags";
 import './Logement.css'
 import { useParams } from 'react-router';
-import Error404 from "./Error_404.jsx";
-import Rating from "../components/molecules/Rating.jsx";
-import Circle from "../components/atoms/Circle.jsx";
-import Collapse from "../components/molecules/Collapse.jsx";
+import Error404 from "./Error_404";
+import Rating from "../components/molecules/Rating";
+import Circle from "../components/atoms/Circle";
+import Collapse from "../components/molecules/Collapse";
 
 export default function Logement() {
     let { ID } = useParams();
