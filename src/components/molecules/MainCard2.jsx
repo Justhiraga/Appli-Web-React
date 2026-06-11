@@ -1,4 +1,4 @@
-import './Main-card.css';
+import './MainCard.css';
 import main_img2 from '../../assets/images/main-img2.png';
 
 export default function MainCard() {

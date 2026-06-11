@@ -1,5 +1,5 @@
 import './Cards.css';
-import Card from '../molecules/card.jsx';
+import Card from '../molecules/Card.jsx';
 import mydata from '../../../logements.json';
 import { NavLink } from 'react-router';
 

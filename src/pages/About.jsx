@@ -1,7 +1,7 @@
-import Header from "../components/molecules/header.jsx";
-import MainCard2 from "../components/molecules/main-card2.jsx";
-import Footer from "../components/molecules/footer.jsx";
-import Collapse from "../components/molecules/collapse.jsx";
+import Header from "../components/molecules/Header.jsx";
+import MainCard2 from "../components/molecules/MainCard2.jsx";
+import Footer from "../components/molecules/Footer.jsx";
+import Collapse from "../components/molecules/Collapse.jsx";
 import about from '../../about.json'
 import '../pages/About.css'
 

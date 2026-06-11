@@ -1,4 +1,4 @@
-import './Main-card.css';
+import './MainCard.css';
 import TextImg from '../atoms/Text-img.jsx';
 import main_img from '../../assets/images/main-img.png';
 

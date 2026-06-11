@@ -1,5 +1,5 @@
 import Arrow from "../atoms/Arrow"
-import '../molecules/collapse.css'
+import '../molecules/Collapse.css'
 import Collapselist from "../atoms/Collapselist";
 import { useState } from "react"
 
