@@ -1,4 +1,4 @@
-import './carrousel_card.css';
+import './Carrousel_card.css';
 
 export default function Carrousel_card({img}) {
     return (
