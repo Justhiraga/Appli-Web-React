@@ -5,7 +5,7 @@ import mydata from '../../logements.json';
 import Subtitles from "../components/atoms/subtitles.jsx";
 import Location from "../components/atoms/location.jsx";
 import Tags from "../components/molecules/tags.jsx";
-import './logement.css'
+import 'logement.css'
 import { useParams } from 'react-router';
 import Error404 from "./error_404.jsx";
 import Rating from "../components/molecules/rating.jsx";
