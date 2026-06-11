@@ -1,5 +1,5 @@
-import Header from '../components/molecules/header.jsx';
-import Footer from '../components/molecules/footer';
+import Header from '../components/molecules/Header.jsx';
+import Footer from '../components/molecules/Footer.jsx';
 import Core404 from '../components/atoms/404.jsx';
 import ErrorLink from '../components/atoms/404link.jsx';
 

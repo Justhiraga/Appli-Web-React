@@ -1,4 +1,4 @@
-import './cards.css';
+import './Cards.css';
 import Card from '../molecules/card.jsx';
 import mydata from '../../../logements.json';
 import { NavLink } from 'react-router';

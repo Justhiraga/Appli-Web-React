@@ -1,4 +1,4 @@
-import './square.css';
+import './Square.css';
 
 export default function Square({img}) {
     return (

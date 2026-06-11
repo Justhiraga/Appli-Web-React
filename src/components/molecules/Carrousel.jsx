@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './carrousel.css';
-import Carrousel_card from '../atoms/carrousel_card.jsx';
-import Arrow from '../atoms/arrow.jsx';
+import './Carrousel.css';
+import Carrousel_card from '../atoms/Carrousel_card.jsx';
+import Arrow from '../atoms/Arrow.jsx';
 
 export default function Carrousel({ pictures }) {
     const [currentpic, setCurrentpic] = useState(0);

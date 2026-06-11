@@ -3,7 +3,7 @@ import MainCard2 from "../components/molecules/main-card2.jsx";
 import Footer from "../components/molecules/footer.jsx";
 import Collapse from "../components/molecules/collapse.jsx";
 import about from '../../about.json'
-import '../pages/about.css'
+import '../pages/About.css'
 
 
 export default function About() {

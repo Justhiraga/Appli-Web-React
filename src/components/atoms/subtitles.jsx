@@ -1,4 +1,4 @@
-import './subtitles.css';
+import './Subtitles.css';
 
 export default function subtitles({title}) {
     return (

@@ -1,6 +1,6 @@
-import './footer.css';
-import TextFooter from "../atoms/text-footer";
-import Logo from '../atoms/logo';
+import './Footer.css';
+import TextFooter from "../atoms/Text-footer";
+import Logo from '../atoms/Logo';
 
 export default function Footer() {
     return (

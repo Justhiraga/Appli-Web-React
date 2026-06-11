@@ -1,4 +1,4 @@
-import './text-img.css';
+import './Text-img.css';
 
 export default function TextImg() {
     return (

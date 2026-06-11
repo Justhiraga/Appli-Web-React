@@ -1,5 +1,5 @@
-import Star from "../atoms/star";
-import "./rating.css";
+import Star from "../atoms/Star";
+import "./Rating.css";
 
 export default function Rating({ rating }) {
     return (

@@ -1,5 +1,5 @@
-import './main-card.css';
-import TextImg from '../atoms/text-img.jsx';
+import './Main-card.css';
+import TextImg from '../atoms/Text-img.jsx';
 import main_img from '../../assets/images/main-img.png';
 
 export default function MainCard() {

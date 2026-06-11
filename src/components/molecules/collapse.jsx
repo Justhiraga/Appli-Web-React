@@ -1,6 +1,6 @@
-import Arrow from "../atoms/arrow"
+import Arrow from "../atoms/Arrow"
 import '../molecules/collapse.css'
-import Collapselist from "../atoms/collapselist";
+import Collapselist from "../atoms/Collapselist";
 import { useState } from "react"
 
 export default function Collapse( {texte, collapsetitle, equipments }) {

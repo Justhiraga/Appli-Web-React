@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router';
-import './titles.css';
+import './Titles.css';
 import { NavLink } from 'react-router';
 
 export default function Titles() {

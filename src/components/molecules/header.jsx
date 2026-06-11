@@ -1,6 +1,6 @@
-import Logo from '../atoms/logo.jsx';
-import Titles from '../atoms/titles.jsx';
-import './header.css';
+import Logo from '../atoms/Logo.jsx';
+import Titles from '../atoms/Titles.jsx';
+import './Header.css';
 
 export default function Header() {
     return (

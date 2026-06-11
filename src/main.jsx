@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client'
-import './styles.css'
+import './Styles.css'
 import { BrowserRouter, Routes, Route } from "react-router";
 import Home from './pages/home.jsx'
 import Logement from './pages/Logement.jsx'

@@ -1,6 +1,6 @@
-import './card.css';
-import Square from '../atoms/square.jsx';
-import Subtitles from '../atoms/subtitles.jsx';
+import './Card.css';
+import Square from '../atoms/Square.jsx';
+import Subtitles from '../atoms/Subtitles.jsx';
 
 export default function Card({img, title}) {
     return (

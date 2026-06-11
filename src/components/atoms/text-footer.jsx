@@ -1,4 +1,4 @@
-import './text-footer.css';
+import './Text-footer.css';
 
 export default function TextFooter() {
     return (
